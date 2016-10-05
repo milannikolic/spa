@@ -36,7 +36,7 @@
      <ul>
         <li ng-repeat="item in bCtl.items">
           Buy {{ item.quantity }} of {{ item.name }}
-         <button class="btn btn-primary" ng-click="bCtl.byeItem($index);">Bought
+         <button class="btn btn-standard" ng-click="bCtl.byeItem($index);">Bought
            <span class="glyphicon glyphicon-ok">
          </button>
        	</li>
@@ -49,7 +49,7 @@
      <h2>Already Bought:</h2>
      <ul>
        <li ng-repeat="item in sCtl.items">
-        <button class="btn btn-primary" ng-click="sCtl.returnItem($index);">Return Item
+        <button class="btn btn-standard" ng-click="sCtl.returnItem($index);">Return Item
           <span class="glyphicon glyphicon-ok">
         </button>
         Bought {{ item.quantity }} of {{ item.name }}

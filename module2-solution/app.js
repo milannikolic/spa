@@ -44,23 +44,23 @@ function ListService() {
   // List of shopping items
   var itemsBye = [
     {
-      name: "Kolaci",
+      name: "Cookies",
       quantity: 10
     },
     {
-      name: "Sokic",
+      name: "Coca Cola",
       quantity: 15
     },
     {
-      name: "Vopi",
+      name: "Amstel beer",
       quantity: 7
     },
     {
-      name: "Njakvi",
+      name: "Fish (cen)",
       quantity: 13
     },
     {
-      name: "Prase",
+      name: "Pig",
       quantity: 1
     }
   ];
